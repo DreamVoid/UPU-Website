@@ -10,7 +10,7 @@ hero:
   tagline: "升级 Minecraft 服务端插件只需这一个帮手"
   image:
     src: /logo_transparent.png
-    alt: VitePress
+    alt: UniversalPluginUpdater
   actions:
     - theme: brand
       text: 下载 UPU

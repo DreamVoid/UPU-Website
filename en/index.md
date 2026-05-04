@@ -10,7 +10,7 @@ hero:
   tagline: "The only helper you need to upgrade plugins."
   image:
     src: /logo_transparent.png
-    alt: VitePress
+    alt: UniversalPluginUpdater
   actions:
     - theme: brand
       text: Download UPU
