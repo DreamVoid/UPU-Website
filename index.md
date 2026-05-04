@@ -15,7 +15,6 @@ hero:
     - theme: brand
       text: 下载 UPU
       link: ./download
-      target: "_self"
     - theme: alt
       text: 帮助文档
       link: https://docs.upu.dreamvoid.me
