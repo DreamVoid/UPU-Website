@@ -12,14 +12,14 @@ export default defineConfig({
 
       themeConfig: {
         nav: [
-          { text: '主页', link: './' },
-          { text: '文档', link: 'https://docs.upu.dreamvoid.me' }
+          { text: '主页', link: '/', target: '_self' },
+          { text: '文档', link: 'https://docs.upu.dreamvoid.me', target: '_self' }
         ],
 
         sidebar: [
           {
             items: [
-              { text: '首页', link: './' },
+              { text: '首页', link: '/' },
               { text: '下载', link: '/download' }
             ]
           }
@@ -35,15 +35,15 @@ export default defineConfig({
 
       themeConfig: {
         nav: [
-          { text: 'Home', link: './' },
-          { text: 'Docs', link: 'https://docs.upu.dreamvoid.me/en/' }
+          { text: 'Home', link: '/en/' },
+          { text: 'Docs', link: 'https://docs.upu.dreamvoid.me/en/', target: '_self' }
         ],
 
         sidebar: [
           {
             items: [
-              { text: 'Home', link: './' },
-              { text: 'Download', link: './download' }
+              { text: 'Home', link: '/en/' },
+              { text: 'Download', link: '/en/download' }
             ]
           }
         ],
